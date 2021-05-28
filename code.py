@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-data = pd.read_csv('data.csv')
+data = pd.read_csv('Book1.csv')
 x = data['YearExperience'].values
 y = data['Salary'].values
 from sklearn.linear_model import LinearRegression
